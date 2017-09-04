@@ -15,7 +15,7 @@ public class Dicionario {
 		while (p.compareTo("s")!=0){
 			
 		if(dic.containsKey(p)){
-			System.out.println("Definição :"+dic.get(p));
+			JOptionPane.showMessageDialog(null,"Definição: "+dic.get(p));
 		}
 		else{
 			String d = JOptionPane.showInputDialog("Palavra não existe digite a definição: ");;
