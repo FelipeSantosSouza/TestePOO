@@ -1,5 +1,5 @@
 public enum TiposServiço {
-	LAVAR_ROUPA, LIMPEZA, MANUTENÇÃO, PASSAR_ROUPA
+	LAVAR_ROUPA, LIMPEZA, MANUTENCAO, PASSAR_ROUPA
 }
 
 public class Serviço {
