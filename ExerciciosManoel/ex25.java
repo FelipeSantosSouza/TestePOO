@@ -18,5 +18,6 @@ public class Estadia {
 	public static void fecharMes(){
 		Calendar c = Calendar.getInstance();
 		meses[c.get(Calendar.MONTH)]=quantHospMes;
+		quantHospMes=0;
 	}
 }
